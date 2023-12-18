@@ -1,1 +1,14 @@
+                                      COMMANDES RÉSEAU WINDOWS 
 
+
+
+Pour accéder à l'interface graphique il faut taper Windows + r et taper ceci : ncpa.cpl
+
+
+Pour Changer d'Adresse ip Windows la commande est celle-ci : netsh interface ipv4 set address name="NOM DE L'INTERFACE" static IP_SOUHAITEE MASQUE_DE_SOUS_RESEAU PASSERELLE
+
+
+ping <Adresse> : permet de ping une adresse et de voir si on peut y accéder ou non. Par exemple tester si un pare-feu bloque et de voir si c'est débloquer ou pas
+
+
+ajouter une route : 
