@@ -14,4 +14,7 @@ pour ces 3 commandes du haut si c'est de l'ipv6 il suffit simplement de rajouter
 
 ping <Adresse> : permet de ping(envoyer un paquet) et voir si un pc/appareil peut répondre et s'il répond ça veut dire qu'il est Joignable.
 
+Pour activer le reoutage en ligne de commande il faut taper : nano /etc/sysctl.conf et puis aller là : net.ipv4.ip_forward=1 et enlever le hashtag qui se trouve en début de ligne
+
+
 Ajouter une route : ip route add <adresse IP destination></Mask> via <adresse IP par laquelle ça passe>
