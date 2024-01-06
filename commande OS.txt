@@ -1,0 +1,87 @@
+1)Lignes de commandes sous Linux
+
+Commandes permettant de découvrir le CLi et se familiariser avec certains raccourcis sous Linux.
+
+Concept du Shell Bash : 
+
+Les commandes entrées sur l'invite Shell comportent trois parties principales : 
+
+	- la COMMANDE à éxecuter 
+	- les OPTIONS qui ajustent le comportement de la commande
+	- les ARGUMENTS, qui sont le plus souvent, les cibles de la commande
+
+Liste de commandes avec l'environnment GNOME : 
+
+	- MKDIR (make directory) permet de créer un répertoire
+	- TOUCH permet de créer un fichier 
+	- DATE permet d'afficher l'aide d'une commande (par exemple mkdir date)
+	- HEAD et TAIL affichent le début et la fin d'un fichier, respectivement + option -n afin de spécifier un nombre différent de lignes comparé à celui de base, 10
+	- WC compte les lignes, mots et caractères d'un fichier + -l (pour les lignes) + -w (pour les mots) + -c (pour les caractères) uniquement
+	- HISTORY affiche une liste de commande précédemment exécutées
+	- SU - ROOT permet de se connecter en root 
+
+Liste de commandes pour le traitement de texte : 
+
+	Commandes de l'éditeur Nano >>>
+		
+		- NANO nom_fichier permet d'ouvrir ou créer un fichier, l'interface de l'éditeur Nano s'ouvrira 
+		- CTRL + O permet de sauvegarder l'édition du fichier
+		- CTRL + X ferme l'éditeur Nano
+		- CTRL + W permet de chercher et remplacez du texte 
+		- CTRL + A lance une ligne
+		- CTRL + E termine une ligne 
+		- CTRL + T exécute une commande 
+	
+	Nano est considéré comme l'un des outils les plus simples à prendre en main, très bien donc pour les utilisateurs novices de Linux. 
+
+
+2)Ligne de commandes sous Windows 
+
+Commandes permettant de découvrir le CMD et de se familiariser avec les commandes principales sous Windows.
+
+On distingue deux catégories de commandes : 
+	
+	- les commandes intégrées dans l'invité de commandes
+	- les commandes externes pouvant être éxecutées 
+
+	Les variables d'environnements : 
+		
+		- PATH est la + importante car elle comprend la liste des répertoires contenant les programmes que le système peut éxecuter
+	
+	Commande : 
+		
+		- SET affiche la liste des variables d'environnements
+
+	Commandes de base : 
+
+		- CD permet de se déplacer dans l'arborescence des fichiers 
+		- l'extension /A après CD va permettre d'afficher les fichiers cachés
+		- /P interrompt l'affichage lorsque l'écran est plein
+		- /S permet l'affichage dans les sous-répertoires
+	
+	Commandes de gestion de fichiers : 
+
+		- MKDIR exactement comme pour Linux
+		- RMDIR quant à lui vas supprimer le répertoire 
+		- COPY peut copier un fichier source vers une autre destination et si possible sous un autre nom
+
+	Les jokers correspondent à différents types de caractères qui sont utilisé pour rechercher un mot d'une expression
+
+		- ? remplace un seul caractère du nom ou de l'extension d'un fichier par exemple
+		- * remplace un ensemble de caractères qui ne sont pas définis 
+
+	Commandes de gestion d'utilisateurs : 
+
+		- NET USER  permet de créer et de gérer les utilisateurs
+		- NET LOCALGROUP également mais pour les groupes 
+
+
+
+
+
+
+
+
+
+
+	
